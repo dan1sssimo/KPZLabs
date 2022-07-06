@@ -38,7 +38,7 @@ class Class1
 {
     public function method()
     {
-        echo 'Class1 method<br>';
+        echo 'Class1 метод<br>';
     }
 }
 
@@ -46,7 +46,7 @@ class Class2
 {
     public function method()
     {
-        echo 'Class2 method<br>';
+        echo 'Class2 метод<br>';
     }
 }
 

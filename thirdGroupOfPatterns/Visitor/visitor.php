@@ -1,14 +1,11 @@
 <?php
-
-namespace RefactoringGuru\Visitor\Conceptual;
-
-interface Component
+interface Component1
 {
     public function accept(Visitor $visitor);
 }
 
 //Кожен компонент реалізує метод accept
-class ConcreteComponentA implements Component
+class ConcreteComponentA implements Component1
 {
     public function accept(Visitor $visitor)
     {
@@ -20,7 +17,7 @@ class ConcreteComponentA implements Component
     }
 }
 
-class ConcreteComponentB implements Component
+class ConcreteComponentB implements Component1
 {
     public function accept(Visitor $visitor)
     {

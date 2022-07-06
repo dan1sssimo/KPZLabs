@@ -3,12 +3,12 @@ class RealClass
 {
     public function operation1()
     {
-        echo 'RealClass operation 1 <br>';
+        echo 'RealClass операція 1 <br>';
     }
 
     public function operation2()
     {
-        echo 'RealClass operation 2 <br>';
+        echo 'RealClass операція 2 <br>';
     }
 }
 

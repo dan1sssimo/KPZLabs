@@ -1,7 +1,5 @@
 <?php
 
-namespace RefactoringGuru\Command\Conceptual;
-
 interface Command
 {
     public function execute();
@@ -76,7 +74,7 @@ class Sender
             $this->onStart->execute();
         }
 
-        echo "Sender: виконування команди.<br>";
+        echo "Sender: ...виконування команди...<br>";
 
         echo "Sender: Щось повинно бути зробленим, до старту?<br>";
         if ($this->onFinish instanceof Command) {

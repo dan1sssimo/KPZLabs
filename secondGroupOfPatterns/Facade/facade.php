@@ -4,7 +4,7 @@ class Unit1
 {
     public function run()
     {
-        echo 'Unit1 run <br>';
+        echo 'Собака біжить <br>';
     }
 }
 
@@ -12,7 +12,7 @@ class Unit2
 {
     public function show()
     {
-        echo 'Unit2 show <br>';
+        echo 'Собака дивиться <br>';
     }
 }
 
@@ -20,7 +20,7 @@ class Unit3
 {
     public function out()
     {
-        echo 'Unit3 out <br>';
+        echo 'Собака втікла<br>';
     }
 }
 

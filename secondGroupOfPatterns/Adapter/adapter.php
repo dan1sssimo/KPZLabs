@@ -4,7 +4,7 @@ class ClassA
 {
     public function methodOne()
     {
-        echo 'ClassA метод A<br>';
+        echo 'ClassA метод класу A<br>';
     }
 }
 
@@ -12,7 +12,7 @@ class ClassB
 {
     public function methodTwo()
     {
-        echo 'ClassB метод B<br>';
+        echo 'ClassB  метод класу B<br>';
     }
 }
 

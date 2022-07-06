@@ -9,7 +9,7 @@ class StrategyA implements Strategy
 {
     public function execute()
     {
-        echo 'StrategyA execute<br>';
+        echo 'StrategyA виконується<br>';
     }
 }
 
@@ -17,7 +17,7 @@ class StrategyB implements Strategy
 {
     public function execute()
     {
-        echo 'StrategyB execute<br>';
+        echo 'StrategyB виконується<br>';
     }
 }
 

@@ -4,7 +4,7 @@ class ClassA1
 {
     public function run()
     {
-        echo 'ClassA run <br>';
+        echo 'ClassA працює <br>';
     }
 }
 
@@ -12,7 +12,7 @@ class ClassB2
 {
     public function run()
     {
-        echo 'ClassB run <br>';
+        echo 'ClassB працює <br>';
     }
 }
 
@@ -20,7 +20,7 @@ class ClassC3
 {
     public function run()
     {
-        echo 'ClassC run <br>';
+        echo 'ClassC працює <br>';
     }
 }
 

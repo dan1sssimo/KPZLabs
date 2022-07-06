@@ -9,12 +9,12 @@ class Bridge1 implements BridgeInterface
 {
     public function method1()
     {
-        echo 'Bridge1 method1 <br>';
+        echo 'Bridge1 метод 1 <br>';
     }
 
     public function method2()
     {
-        echo 'Bridge1 method2 <br>';
+        echo 'Bridge1 метод 2 <br>';
     }
 }
 
@@ -22,12 +22,12 @@ class Bridge2 implements BridgeInterface
 {
     public function method1()
     {
-        echo 'Bridge2 method1 <br>';
+        echo 'Bridge2 метод 1 <br>';
     }
 
     public function method2()
     {
-        echo 'Bridge2 method2 <br>';
+        echo 'Bridge2 метод 2<br>';
     }
 }
 
@@ -63,6 +63,6 @@ class App extends AppAbstract
 
 $a = new App(new Bridge1());
 $a->run();
-
+echo "<br>";
 $b = new App(new Bridge2());
 $b->run();

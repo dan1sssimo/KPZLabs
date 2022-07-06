@@ -31,7 +31,7 @@ class Observer1 implements \SplObserver
 {
     function update(SplSubject $subject)
     {
-        echo 'update Observer1<br>';
+        echo 'покращено Observer1<br>';
     }
 }
 
@@ -39,7 +39,7 @@ class Observer2 implements \SplObserver
 {
     function update(SplSubject $subject)
     {
-        echo 'update Observer2<br>';
+        echo 'покращено Observer2<br>';
     }
 }
 
@@ -54,5 +54,5 @@ $observable->attach($o2);
 $observable->notify();
 
 $observable->detach($o1);
-
+echo "Відключили першого спостерігача:<br> ";
 $observable->notify();

@@ -25,7 +25,7 @@ class ClassOne implements CompositeInterface
 {
     public function run()
     {
-        echo 'Class1 run <br>';
+        echo 'Class1 запущений <br>';
     }
 }
 
@@ -33,7 +33,7 @@ class ClassTwo implements CompositeInterface
 {
     public function run()
     {
-        echo "Class2 run <br>";
+        echo "Class2 запущений <br>";
     }
 }
 
